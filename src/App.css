@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.App0{
+  text-align: left;
+}
+
+.App1 {
+  /* border-style: solid;
+  border-color: coral; */
+
+  
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

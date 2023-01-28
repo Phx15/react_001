@@ -35,18 +35,32 @@ function App() {
         
         <input id="color-input" onChange={() => setColor()}></input>
 
+        <div className='App0'>
+<div className='App1'>
         <label>Red</label>
         <input type="range" min="0" max="255" id="red" onChange={() => setColorFromSliders()}></input>
         <label id="red-val" ></label>
+        </div>
+
+        <div className='App1'>
         <label>Green</label>
         <input type="range" min="0" max="255" id="green" onChange={() => setColorFromSliders()}></input>
         <label id="green-val"></label>
+</div>
+
+        <div className='App1'>
         <label>Blue</label>
         <input type="range" min="0" max="255" id="blue" onChange={() => setColorFromSliders()}></input>
         <label id="blue-val"></label>
+        </div>
+
+        <div className='App1'>
         <label>Alpha</label>
         <input type="range" min="0" max="100" id="alpha" onChange={() => setColorFromSliders()}></input>
         <label id="alpha-val"></label>
+        </div>
+
+        </div>
       </header>
 
       <label>
